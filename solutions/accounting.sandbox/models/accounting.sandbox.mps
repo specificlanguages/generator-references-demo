@@ -61,12 +61,22 @@
         <node concept="3aJjMr" id="1QJuqI$ekd5" role="2TAabs">
           <ref role="3aJjMo" node="2NWmiFAgib2" resolve="Criterion1" />
         </node>
+        <node concept="3aJjMr" id="1QJuqI$f7eO" role="2TAabs">
+          <ref role="3aJjMo" node="1QJuqI$f7e$" resolve="stuf" />
+        </node>
+        <node concept="3aJjMr" id="1QJuqI$f7f0" role="2TAabs">
+          <ref role="3aJjMo" node="2NWmiFAgk0u" resolve="TransactionDate" />
+        </node>
       </node>
       <node concept="3aJjM_" id="1QJuqI$ekda" role="3aJjxS" />
     </node>
     <node concept="3aKY7D" id="2NWmiFAgib2" role="3aKY0C">
       <property role="TrG5h" value="Criterion1" />
       <node concept="3aKY7H" id="2NWmiFAgib6" role="3aKY7z" />
+    </node>
+    <node concept="3aKY7D" id="1QJuqI$f7e$" role="3aKY0C">
+      <property role="TrG5h" value="stuf" />
+      <node concept="3aJh$d" id="1QJuqI$f7eG" role="3aKY7z" />
     </node>
     <node concept="3aKY7D" id="2NWmiFAgk0u" role="3aKY0C">
       <property role="TrG5h" value="TransactionDate" />
