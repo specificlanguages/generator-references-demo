@@ -7,6 +7,9 @@
   <imports />
   <registry>
     <language id="261a1673-2c2c-4b20-a8a9-a9a39e8d083c" name="accounting">
+      <concept id="2139062126125767542" name="accounting.structure.AnyOf" flags="ng" index="2TAabt">
+        <child id="2139062126125767543" name="arguments" index="2TAabs" />
+      </concept>
       <concept id="3241563872586448935" name="accounting.structure.IntegerType" flags="ng" index="3aJh$d" />
       <concept id="3241563872586458545" name="accounting.structure.ParameterReference" flags="ng" index="3aJjMr">
         <reference id="3241563872586458546" name="parameter" index="3aJjMo" />
@@ -50,6 +53,16 @@
         <ref role="3aJjMo" node="2NWmiFAgib2" resolve="Criterion1" />
       </node>
       <node concept="3aJjM_" id="2NWmiFAgv8C" role="3aJjxS" />
+    </node>
+    <node concept="3aKY0F" id="1QJuqI$ekcD" role="3aKY0G">
+      <node concept="2TAabt" id="1QJuqI$ekcP" role="3aJjx_">
+        <node concept="3aJjM_" id="1QJuqI$ekcS" role="2TAabs" />
+        <node concept="3aJjM_" id="1QJuqI$ekcX" role="2TAabs" />
+        <node concept="3aJjMr" id="1QJuqI$ekd5" role="2TAabs">
+          <ref role="3aJjMo" node="2NWmiFAgib2" resolve="Criterion1" />
+        </node>
+      </node>
+      <node concept="3aJjM_" id="1QJuqI$ekda" role="3aJjxS" />
     </node>
     <node concept="3aKY7D" id="2NWmiFAgib2" role="3aKY0C">
       <property role="TrG5h" value="Criterion1" />
