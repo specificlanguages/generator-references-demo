@@ -7,6 +7,11 @@
   <imports />
   <registry>
     <language id="261a1673-2c2c-4b20-a8a9-a9a39e8d083c" name="accounting">
+      <concept id="2139062126126113959" name="accounting.structure.DateLiteral" flags="ng" index="2T$_Oc">
+        <property id="2139062126126113986" name="year" index="2T$_PD" />
+        <property id="2139062126126113991" name="day" index="2T$_PG" />
+        <property id="2139062126126113988" name="month" index="2T$_PJ" />
+      </concept>
       <concept id="2139062126125767542" name="accounting.structure.AnyOf" flags="ng" index="2TAabt">
         <child id="2139062126125767543" name="arguments" index="2TAabs" />
       </concept>
@@ -66,6 +71,11 @@
         </node>
         <node concept="3aJjMr" id="1QJuqI$f7f0" role="2TAabs">
           <ref role="3aJjMo" node="2NWmiFAgk0u" resolve="TransactionDate" />
+        </node>
+        <node concept="2T$_Oc" id="1QJuqI$fnPi" role="2TAabs">
+          <property role="2T$_PD" value="1111" />
+          <property role="2T$_PJ" value="2" />
+          <property role="2T$_PG" value="1111" />
         </node>
       </node>
       <node concept="3aJjM_" id="1QJuqI$ekda" role="3aJjxS" />

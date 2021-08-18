@@ -12,6 +12,7 @@
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
+        <property id="4628067390765907488" name="conceptShortDescription" index="R4oN_" />
         <property id="4628067390765956802" name="abstract" index="R5$K7" />
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
@@ -177,6 +178,28 @@
       <property role="20kJfa" value="arguments" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="2NWmiFAgm5h" resolve="Expression" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1QJuqI$fiiB">
+    <property role="EcuMT" value="2139062126126113959" />
+    <property role="TrG5h" value="DateLiteral" />
+    <property role="34LRSv" value="/" />
+    <property role="R4oN_" value="date literal" />
+    <ref role="1TJDcQ" node="2NWmiFAgm5h" resolve="Expression" />
+    <node concept="1TJgyi" id="1QJuqI$fij2" role="1TKVEl">
+      <property role="IQ2nx" value="2139062126126113986" />
+      <property role="TrG5h" value="year" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="1TJgyi" id="1QJuqI$fij4" role="1TKVEl">
+      <property role="IQ2nx" value="2139062126126113988" />
+      <property role="TrG5h" value="month" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="1TJgyi" id="1QJuqI$fij7" role="1TKVEl">
+      <property role="IQ2nx" value="2139062126126113991" />
+      <property role="TrG5h" value="day" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
   </node>
 </model>
